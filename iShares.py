@@ -58,7 +58,7 @@ def filter_data(df, captions):
     return filtered_df
     
     
-def main(): 
+def filtered_iShares_data(): 
     # grab data 
     data = get_iShares_data()
 
@@ -66,8 +66,6 @@ def main():
     filtered_data = filter_data(data, needed_captions)
     print(filtered_data)
 
-if __name__ == '__main__':
-    main()
       
   
   
